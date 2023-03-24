@@ -149,15 +149,59 @@ button{
     width: 100%;
     height: 16%;
     background-color: #A0B4B7;
-    border-top-right-radius: 3%;
-    border-top-left-radius: 3%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+   
 }
+.b1-head1{
+    margin-top: 7%;
+    
+
+}
+
 .b1-1 img{
+    margin-top: 9%;
     width: 4.5vmax;
     height: 4.5vmax;
     border-radius: 50%;
     object-fit: cover;
     object-position: top;
+    border: 2px solid white;
+   
+}
+.b1-2>h5{
+    display: inline-block;
+    padding-left: 4%;
+   
+    
+}
+.b1-2-span2{
+    padding-left: 1%;
+}
+.b1-2-span1{
+    /* display: inline-block;
+    transform: translateY(-10); */
+   
+}
+
+.b1-2>span{
+    margin-left: 22%;
+}
+.b1-2{
+   border-bottom: 0.5px solid #A0B4B7;
+   padding-bottom: 12%;
+   padding-top:15%;
+   font-family: source sans pro;
+}
+.b1-3{
+   border-bottom: 0.5px solid #A0B4B7;
+   padding-bottom: 5%;
+   padding-left: 3%;
+
+}
+.b1-4{
+    padding: 0 0 8px 15px ;
 }
 
 .box1,.box2,.box3{
@@ -168,12 +212,15 @@ button{
     width: 11vw;
 }
 .box1,.box2,.box3,.box2-1,.box2-2,.box2-3{
-    border-radius: 3%;
+    border-radius: 10px;
 }
 .box1{
     width: 15vmax;
     height: 22vmax;
     background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
    
    
 }
