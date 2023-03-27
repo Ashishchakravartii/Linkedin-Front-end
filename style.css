@@ -8,15 +8,17 @@ body{
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 .main{
     width: 100vw;
-    background-color: #e7e6e4e6;
+    background-color: #F3F2EF;
 }
 .nav{
     width: 77vw;
     height: 7.3vh;
-    background-color: white;
+    background-color: #FFFFFF;
     
     display: flex;
     position: fixed;
@@ -156,8 +158,17 @@ button{
 }
 .b1-head1{
     margin-top: 7%;
+    letter-spacing: 0.5px;
+    font-weight: 600;
     
 
+}
+.b1-head2{
+    font-weight: 400;
+    letter-spacing: 0.01;
+    font-size: 0.9vmax;
+    padding-top: 0.2vmax;
+    color: rgb(148, 146, 146);
 }
 
 .b1-1 img{
@@ -170,6 +181,10 @@ button{
     border: 2px solid white;
    
 }
+.b1-1 hr{
+    height: 1px;
+    background-color: transparent;
+}
 .b1-2>h5{
     display: inline-block;
     padding-left: 4%;
@@ -178,30 +193,53 @@ button{
 }
 .b1-2-span2{
     padding-left: 1%;
+    color: #3374b6;
+    font-weight: 600;
 }
 .b1-2-span1{
     /* display: inline-block;
     transform: translateY(-10); */
+    color: #3374b6;
+    font-weight: 600;
+    line-height: 2vmax;
+    padding-top: 1vmax;
    
 }
 
 .b1-2>span{
     margin-left: 22%;
+    font-weight: 400;
 }
 .b1-2{
-   border-bottom: 0.5px solid #A0B4B7;
-   padding-bottom: 12%;
-   padding-top:15%;
-   font-family: source sans pro;
+   border-bottom: 0.01px solid #e4dfdf;
+   border-top: 0.01px solid #e4dfdf ;
+   padding-bottom: 5%;
+   font-weight: 400;
+   padding-top: 0.5vmax;
+   font-size: 0.85vmax;
+   color: rgb(109, 106, 106);
+   padding-left: 0.5vmax;
 }
 .b1-3{
-   border-bottom: 0.5px solid #A0B4B7;
+   border-bottom: 0.01px solid #cfd4d5;
    padding-bottom: 5%;
-   padding-left: 3%;
+   padding-left: 0.5vmax;
+   color: rgb(148, 146, 146);
 
+}
+.b1-3 h5 {
+    font-weight: 400;
+    color: rgb(118, 117, 117);
+}
+.b1-3 a{
+    font-size: 0.85vmax;
+    color: black;
 }
 .b1-4{
     padding: 0 0 8px 15px ;
+    font-size: 0.85vmax;
+    font-weight: 600;
+    color: #515454;
 }
 
 .box1,.box2,.box3{
@@ -213,14 +251,19 @@ button{
 }
 .box1,.box2,.box3,.box2-1,.box2-2,.box2-3{
     border-radius: 10px;
+    border: 1.5px solid #E0DFDC;
+    background-color:#FFFFFF;
+
 }
 .box1{
     width: 15vmax;
     height: 22vmax;
-    background-color:white;
+    background-color:#FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 1px solid #E0DFDC;
+   
    
    
 }
@@ -228,17 +271,100 @@ button{
     width: 36.5vmax;
     height: 7.5vmax;
     background-color:white;
-    border-radius: 2.9%;
+    border-radius: 0.5vmax;
+   
+    
 }
+.b2-top{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vmax;
+   
+}
+.b2-top img{
+    width: 3.5vmax;
+    height: 3.5vmax;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid white;
+    margin-left: 0.5vmax;
+}
+.b2-bottom{
+   width: 100%;
+   height: 40%;
+   font-size: 1vmax;
+   color: #7E8384;
+   
+
+}
+.b2-a-tags{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.7vmax;
+    color: #7e8384;
+    font-size: 1..1vmax;
+    font-weight: 500;
+}
+.b2-a-tags >a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.b2-top input{
+    
+   border: 1px solid #A0B4B7;
+   padding: 1vmax 19vmax 1vmax 1vmax;
+   border-radius: 2vmax;
+   margin-right: 0.5vmax;
+}
+
 .box3{
-    width: 17vmax;
+    width: 18.5vmax;
     height: 21vmax;
     background-color:white;
 }
+.b3-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7vmax;
+    font-weight: 600;
+    font-size: 1.1vmax;
+}
+.b3-list{
+   line-height: 1.7vmax;
+   padding-left: 1.8vmax;
+   letter-spacing: 0.01vmax;
+  
+
+
+}
+.b3-list a{
+    color: #7e8384;
+}
+.b3-list >ul > li{
+    font-size: 1vmax;
+    font-weight: 600;
+    list-style-type: circle;
+
+}
+.b3-list >ul > ul{
+    font-size: 0.9vmax;
+    font-weight: 300;
+    margin-top: -2%;
+    color: #7e8384;
+   
+   
+}
+
 .content2{
     display: flex;
     justify-content: space-evenly;
     margin-top: 0.5%;
+
+   
 }
 .box2-1{
     width: 15vmax;
@@ -246,6 +372,85 @@ button{
     background-color:white;
     position: sticky;
     top: 10.5%;
+
+    padding-left: 0.5vmax;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+.b2-1{
+    display: flex;
+    flex-direction: column;
+    
+    font-weight: 400;
+    font-size: 0.85vmax;
+    color: #6b6d6e;
+    padding-top: 1vmax;
+    padding-left: 0.3vmax;
+
+   
+
+}
+.b2-2{
+    display: flex;
+    flex-direction: column;
+    
+    font-weight: 400;
+    font-size: 0.85vmax;
+    color: #6b6d6e;
+    padding-top: 1vmax;
+    padding-left: 0.3vmax;
+}
+    
+.b2-2 button{margin-top: 102%;
+    margin-left: -36%;
+    width: 20%;
+    font-size: 0.85vmax;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6b6d6e;
+}
+.b2-2 span{
+    color: #307ECC;
+    font-weight: 600;
+}
+.b2-3{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.9vmax;
+    padding-top: 4vmax;
+    font-size: 0.85vmax;
+    padding-left: 0.2vmax; 
+    color:#307ECC ;
+    font-weight: 600;
+}
+.b2-3 i{
+    font-size: 1.5vmax;
+    color: #6b6d6e;
+}
+
+
+.b2-4{
+    color: #307ECC;
+    font-weight: 600;
+    font-size: 0.85vmax;
+    padding-top: 0.9vmax;
+   padding-left: -20vmax;
+   
+}
+
+.b2-5 button{
+    margin-top: 152%;
+    margin-left: -48%;
+    width: 100%;
+    font-size: 1vmax;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7e8182;
+    text-align: center;
+    border-top: 1px solid #c7d1d6;
+    padding-top: 7%;
+    font-weight: 500;
+
 }
 .box2-2{
     width: 36.5vmax;
@@ -254,13 +459,65 @@ button{
     margin-top: -13%;
 }
 .box2-3{
-    width: 17vmax;
-    height: 14vmax;
+    width: 18.5vmax;
+    height: 16vmax;
     background-color:white;
     position: sticky;
     top: 10.5%;
     margin-top: -1%;
+    
+}
+.b2-3-1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 0.5vmax;
+    padding-top: 0.5vmax;
+    font-size: 0.9vmax;
+}
+.box2-3 p{
+    font-size: 0.85vmax;
+    font-weight: 300;
+    padding-top: 0.2vmax;
+    padding-left: 1vmax;
+}
+.box2-3 p > span{
+    padding-left: 6.5vmax;
+}
+.b2-3-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5vmax;
+}
+#b2-3-2-img1{
+    width: 4.5vmax;
+    height: 4.5vmax;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
 
+}
+#b2-3-2-img2{
+    width: 4.5vmax;
+    padding-left: 1vmax;
+}
+#b2-3-2-p2{
+    font-size: 1vmax;
+    font-weight: 400;
+}
+.box2-3 button{
+    width: 7vmax;
+    margin-top: 12vmax;
+    border: 2px solid #0A66C2;
+    color: #0A66C2;
+    border-radius: 2vmax;
+    
+    font-size: 1vmax;
+    padding: 0.5vmax;
+    padding-bottom: 1vmax;
+    text-align: center;
+    margin-left: -3vmax;
 }
 
 
