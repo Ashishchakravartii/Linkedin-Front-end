@@ -227,6 +227,9 @@ button{
    color: rgb(148, 146, 146);
 
 }
+.b1-3 a{
+    display: flex;
+}
 .b1-3 h5 {
     font-weight: 400;
     color: rgb(118, 117, 117);
@@ -342,7 +345,8 @@ button{
 
 }
 .b3-list a{
-    color: #7e8384;
+    color: #5c5f60;
+    text-decoration: none;
 }
 .b3-list >ul > li{
     font-size: 1vmax;
