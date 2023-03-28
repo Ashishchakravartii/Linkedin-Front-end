@@ -392,6 +392,16 @@ button{
    
 
 }
+.b2-1 a{
+    text-decoration: none;
+    color: #6b6d6e;
+    display: flex;
+}
+.b2-2 a{
+    text-decoration: none;
+    color: #6b6d6e;
+    display: flex;
+}
 .b2-2{
     display: flex;
     flex-direction: column;
@@ -418,7 +428,7 @@ button{
     display: flex;
     justify-content: space-between;
     padding-right: 0.9vmax;
-    padding-top: 4vmax;
+    padding-top: 5vmax;
     font-size: 0.85vmax;
     padding-left: 0.2vmax; 
     color:#307ECC ;
